@@ -1,0 +1,29 @@
+Malware yang meminta tebusan disebut?|Ransomware
+Protokol transfer hypertext aman adalah?|HTTPS
+Tindakan memancing korban via email palsu?|Phishing
+Sistem keamanan pemantau trafik jaringan?|Firewall
+Teknik menyembunyikan pesan dalam gambar disebut?|Steganografi
+Serangan membanjiri server dengan trafik berlebihan disebut?|DDoS
+Metode otentikasi dengan dua lapis verifikasi disebut?|Two-Factor Authentication
+Proses mengubah data menjadi bentuk terenkripsi disebut?|Encryption
+Program jahat yang menyamar sebagai aplikasi sah disebut?|Trojan
+Serangan yang memanfaatkan celah SQL disebut?|SQL Injection
+Teknik menebak password dengan mencoba banyak kombinasi?|Brute Force
+Protokol aman untuk komunikasi email?|SMTP Secure
+Perangkat keras yang memfilter paket jaringan?|Router
+Serangan yang memanfaatkan kepercayaan antar situs web?|Cross-Site Scripting
+Metode keamanan dengan sidik jari atau wajah?|Biometric Authentication
+Jenis malware yang mereplikasi diri dan menyebar otomatis?|Worm
+Serangan yang memanfaatkan celah pada perangkat lunak disebut?|Exploit
+Teknik mengalihkan pengguna ke situs palsu disebut?|DNS Spoofing
+Protokol aman untuk komunikasi jarak jauh ke server?|SSH
+Serangan yang memanfaatkan celah pada aplikasi web untuk mencuri cookie?|Session Hijacking
+File berbahaya yang dikirim lewat email disebut?|Malicious Attachment
+Sistem yang mendeteksi intrusi jaringan disebut?|IDS (Intrusion Detection System)
+Teknik menyusup ke sistem tanpa terdeteksi disebut?|Backdoor
+Serangan yang memanipulasi input form web disebut?|Form Hijacking
+Protokol untuk transfer file yang aman disebut?|SFTP
+Serangan yang meniru identitas pengguna disebut?|Impersonation Attack
+Teknik pengamanan data dengan hashing disebut?|Hashing
+Sistem yang mencegah intrusi jaringan disebut?|IPS (Intrusion Prevention System)
+Serangan yang memanfaatkan kelemahan browser disebut?|Drive-by Download
