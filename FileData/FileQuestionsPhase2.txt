@@ -1,0 +1,9 @@
+Orang yang melakukan aktivitas peretasan secara etis disebut?|White Hat Hacker
+Hacker yang meretas untuk tujuan jahat disebut?|Black Hat Hacker
+Teknik manipulasi psikologis untuk mencuri informasi?|Social Engineering
+Hacker yang kadang etis kadang jahat tergantung situasi?|Grey Hat Hacker
+Tindakan mencoba masuk ke sistem tanpa izin disebut?|Unauthorized Access
+Aktivitas menguji keamanan sistem disebut?|Penetration Testing
+Hacker yang mengaku membobol dan menjual data dari instansi pemerintah Indonesia bernama?|Bjorka
+Teknik penyadapan komunikasi publik menggunakan WiFi palsu disebut?|Evil Twin Attack
+Kebocoran data yang terjadi karena password admin tidak diganti dari default disebut?|Misconfiguration
