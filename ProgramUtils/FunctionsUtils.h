@@ -46,12 +46,21 @@ void showHeaderGame();
 void showIntroStory();
 
 // Fungsi Untuk Visualisasi
+void delayPrint(char *str, int speed);
+void loadingBar(char *text);
 
 // Fungsi Untuk Autentikasi
+void setupDatabase();
+int loginSession(Agent *user);
+void registerNew();
+void saveLog(Agent *user, int skor);
+void updateUserScore(Agent *user);
 void viewLogs();
 
 // Fungsi Untuk Program Game
 void programPhase1(Agent *user);
+int programPhase2(Agent *agent, int *keyCode, int totalPoin);
+int programPhase3(Agent *agent, int totalPoin);
 void programGame(Agent *user);
 /* -------------------- [END - BAGIAN-BAGIAN FUNGSI] ---------------------------------*/
 #endif

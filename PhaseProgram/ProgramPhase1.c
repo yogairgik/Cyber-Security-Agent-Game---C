@@ -56,14 +56,14 @@ void programPhase1(Agent *user) {
     }
 
     printf(">> ACCESS GRANTED. Firewall disabled.\n");
-    totalPoin += 20;
+    totalPoin += 50;
     SLEEP(1000);
     
     delayPrint("\n\033[32m[COMMAND] Misi Tahap 1 Selesai. Data berhasil diamankan.\n", 30);
     delayPrint("Tunggu... sepertinya ada lapisan keamanan sekunder!\n", 30);
     delayPrint("Bersiap untuk fase kedua...\033[0m\n\n", 30);
     SLEEP(2000);
-    
+
     // --- MEMANGGIL STAGE 2 ---
     if (!programPhase2(user, stage2_keyCode, totalPoin)){
         printf("\n>> MISSION FAILED. Koneksi terputus.\n");
@@ -71,6 +71,5 @@ void programPhase1(Agent *user) {
         return;
     }
     
-    totalPoin += 50; // Poin karena lolos stage 2
     SLEEP(1000);
 }

@@ -3,31 +3,30 @@
 // Fungsi utama
 int main(){
     srand(time(0));
-    setupDatabase();
-    
     Agent activeAgen;
     int menu;
+    
     while (1){
         system(CLEAR);
         showHeaderGame();
         
         // Input validation agar tidak loop error jika input huruf
         if (scanf("%d", &menu) != 1){
-            while (getchar() != '\n'); // Bersihkan buffer
+            while (getchar() != '\n');
             continue;
         }
-        while (getchar() != '\n'); // Bersihkan sisa newline
+        while (getchar() != '\n');
 
         if (menu == 1){
             if (loginSession(&activeAgen)){
                 showIntroStory();
                 while (1){
                     system(CLEAR);
-                    printf("=========================================\n");
+                    printf("\033[32m=========================================\n");
                     printf("AGENT STATUS: ACTIVE\n");
                     printf("CODENAME    : %s\n", activeAgen.namaAgen);
                     printf("REPUTATION  : %d XP\n", activeAgen.skorReputasi);
-                    printf("=========================================\n");
+                    printf("=========================================\033[0m\n");
                     showMenuOptions("[1] START MISSION: OP. BLACKOUT", "[2] ACCESS LOGS", "[3] LOGOUT");
                     
                     if (scanf("%d", &menu) != 1){
@@ -48,6 +47,8 @@ int main(){
             registerNew();
         }else if (menu == 3){
             delayPrint("Terminating connection...", 30);
+            Sleep((1000));
+            system(CLEAR);
             break;
         }
     }

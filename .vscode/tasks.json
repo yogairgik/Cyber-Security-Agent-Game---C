@@ -2,46 +2,21 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "COMPILE & RUN Kelompok4_UAS_KP",
+            "label": "BUILD AND RUN",
             "type": "shell",
-            "command": "gcc",
+            "command": "cmd",
             "args": [
-                "Main.c",
-                "ProgramUtils/FunctionsUtils.c",
-                "PhaseProgram/ProgramPhase1.c",
-                "PhaseProgram/ProgramPhase2.c",
-                "PhaseProgram/ProgramPhase3.c",
-                "-o",
-                "Kelompok4_UAS_KP.exe"
+                "/C",
+                "cls && gcc Main.c ProgramUtils/FunctionsUtils.c PhaseProgram/ProgramPhase1.c PhaseProgram/ProgramPhase2.c PhaseProgram/ProgramPhase3.c -o Kelompok4_UAS_KP.exe && cls && Kelompok4_UAS_KP.exe"
             ],
-            "options": {
-                "shell": {
-                    "executable": "pwsh.exe",
-                    "args": ["-Command"]
-                }
-            },
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
-            "problemMatcher": "$gcc",
             "presentation": {
                 "reveal": "always",
-                "panel": "shared"
-            },
-            "dependsOn": [
-                "RUN EXE"
-            ]
-        },
-        {
-            "label": "RUN EXE",
-            "type": "shell",
-            "command": ".\\Kelompok4_UAS_KP.exe",
-            "options": {
-                "shell": {
-                    "executable": "pwsh.exe",
-                    "args": ["-Command"]
-                }
+                "panel": "new",
+                "clear": true
             }
         }
     ]

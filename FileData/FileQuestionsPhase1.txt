@@ -25,5 +25,5 @@ Serangan yang memanipulasi input form web disebut?|Form Hijacking
 Protokol untuk transfer file yang aman disebut?|SFTP
 Serangan yang meniru identitas pengguna disebut?|Impersonation Attack
 Teknik pengamanan data dengan hashing disebut?|Hashing
-Sistem yang mencegah intrusi jaringan disebut?|IPS (Intrusion Prevention System)
+Sistem yang mencegah intrusi jaringan disebut?|IPS
 Serangan yang memanfaatkan kelemahan browser disebut?|Drive-by Download

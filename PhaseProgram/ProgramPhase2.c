@@ -12,8 +12,8 @@ int programPhase2(Agent *agent, int *keyCode, int totalPoin){
 
     printf("[PHASE 2.1] Bypassing 'PANDA' Obfuscation...\n");
 
-    char *kata_asli[] = {"SERVER", "HACKER", "FIREWALL", "DATABASE", "ENCRYPTION"};
-    char *kata_panda[] = {"SORVOR", "HOCKOR", "FOROWOLL", "DOTOBOSO", "ONCRYPTOON"};
+    char *kata_asli[] = {"SERVER", "HACKER", "FIREWALL", "DATABASE", "ENCRYPTION", "SPYWARE", "CYBERSPACE", "INJECTION", "BOTNET", "PHISHING"};
+    char *kata_panda[] = {"SORVOR", "HOCKOR", "FOROWOLL", "DOTOBOSO", "ONCRYPTOON", "SPYWORO", "CYBORSPOCO", "ONJOCTOON", "BOTNOT", "PHOSHONG"};
 
     int jumlah_kata = sizeof(kata_asli) / sizeof(kata_asli[0]);
     int randomIndex = rand() % jumlah_kata;
@@ -121,6 +121,7 @@ int programPhase2(Agent *agent, int *keyCode, int totalPoin){
     SLEEP(1000);
 
     if (input1 == keyCode[0] && input2 == keyCode[1] && input3 == keyCode[2]){
+        totalPoin += 100;
         if(!programPhase3(agent, totalPoin)){
         printf("\n>> MISSION FAILED. Koneksi terputus.\n");
         SLEEP(2000);

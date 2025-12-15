@@ -59,16 +59,16 @@ int programPhase3(Agent *user, int totalPoin) {
         delayPrint("   $$$ DECRYPTION SUCCESSFUL $$$          \n", 50);
         delayPrint("   DOWNLOADING ILLEGAL DATA... 100%       \n", 50);
         printf("==========================================\033[0m\n");
-        totalPoin += (50 + (attempt * 10));
+        totalPoin += (50 + (attempt * 5));
         user->skorReputasi += totalPoin;
-        totalPoin += (50 + (attempt * 10)); // Poin dari stage 3
-        
-        user->skorReputasi += totalPoin;
+
         updateUserScore(user);
         saveLog(user, totalPoin);
-        printf("\n--- MISI SELESAI ---\nReputasi Anda meningkat!\n", totalPoin);
+        printf("\n--- MISI SELESAI ---\nReputasi Anda meningkat!\n");
+        SLEEP(2000);
 
-        printf("\n\033[31m[CLEANING TRACE FILES...]\n");
+        system(CLEAR);
+        printf("\033[31m[CLEANING TRACE FILES...]\n");
         delayPrint("Menghapus log akses.....\n", 60);
         delayPrint("Mengaburkan alamat IP.....\n", 60);
         delayPrint("Menghapus sidik digital.....\033[0m\n", 60);

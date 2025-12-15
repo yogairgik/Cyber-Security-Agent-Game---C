@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Kuliah/Mata Kuliah/Konsep Pemrograman/UAS/UAS_KELOMPOK4",
-      "program": "d:/Kuliah/Mata Kuliah/Konsep Pemrograman/UAS/UAS_KELOMPOK4/build/Debug/outDebug",
+      "cwd": "d:/Kuliah/Mata Kuliah/Konsep Pemrograman/UAS/UAS_KP_KELOMPOK4",
+      "program": "d:/Kuliah/Mata Kuliah/Konsep Pemrograman/UAS/UAS_KP_KELOMPOK4/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
